@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/rowJobOfferTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="#555"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/rowJobOfferDesc"
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textColor="#999"
+        android:textSize="16sp"
+        android:maxLines="1"
+        android:ellipsize="marquee"
+        />
+
+</LinearLayout>
